@@ -116,7 +116,7 @@ module.exports = {
                     plugins: [
                         //['react-html-attrs'],//添加babel-plugin-react-html-attrs组件的插件配置
                         // 引入样式为 css
-                        ['import', {libraryName: 'antd', style: 'css'}],
+                        ['import', {libraryName: 'antd-mobile', style: 'css'}],
                         // 改动: 引入样式为 less
                         //  ['import', { libraryName: 'antd', style: true }],
                     ],

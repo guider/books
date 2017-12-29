@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import styles from './App.css';
 import {Button} from 'antd-mobile'
-import 'antd-mobile/lib/button/style/css';
 import CSSModules from 'react-css-modules'
 
 class App extends Component {
