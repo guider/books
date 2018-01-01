@@ -5,16 +5,16 @@ import CSSModules from 'react-css-modules'
 import {BrowserRouter, Link, Route, Prompt, NavLink, Redirect} from 'react-router-dom'
 
 import MainPage from './pages/main/MainPage'
-
-
+import AddRecordPage from './pages/addRecord/AddRecordPage.jsx'
 class App extends Component {
+
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter >
                 <div styleName="App">
                     <Route exact path="/" component={MainPage}/>
                     <Route exact path="/main" component={MainPage}/>
-
+                    <Route exact path="/addRecord" component={AddRecordPage}/>
 
                     {/*<header className="App-header">*/}
                     {/*<img src={logo} className="App-logo" alt="logo" />*/}

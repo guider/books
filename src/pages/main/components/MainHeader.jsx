@@ -8,7 +8,7 @@ class MainHeader extends Component {
     }
     static generateList() {
         return [0, 1, 2].map((item,index) => {
-            return <p styleName="item">{item}</p>
+            return <p styleName="item" key={item+''}>{item}</p>
         })
     }
     render() {
