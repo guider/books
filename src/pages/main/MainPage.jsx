@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
+import CSSModules from 'react-css-modules'
+import styles from './MainPage.css'
 
+import MainHeader from './components/MainHeader'
+import MainSectionHeader from './components/MainSectionHeader'
 class MainPage extends Component {
 
     constructor() {
@@ -7,14 +11,20 @@ class MainPage extends Component {
         this.state = {}
     }
 
+
     render() {
-        return(
-            <div> new template </div>
+        return (
+            <div styleName="container">
+                <MainHeader />
+                <MainSectionHeader/>
+
+            </div>
         )
     }
-    componentDidMount(){
+
+    componentDidMount() {
 
     }
 }
 
-export default MainPage
+export default CSSModules(MainPage, styles);

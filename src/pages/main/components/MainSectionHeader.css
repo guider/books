@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    color: red;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+.itemContainer{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.item{
+    flex: 1;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
