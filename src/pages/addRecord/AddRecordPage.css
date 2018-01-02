@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spe {
+    flex-basis: initial;
+    width: 100%;
+}
+
+.am-list-extra {
+    flex-basis: initial;
+    width: 100%;
+}
+
+.my-list {
+    flex-basis: initial;
+    width: 100%;
+}
